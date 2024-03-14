@@ -1,10 +1,13 @@
 
 
-def my_function (n,c):
+def my_function (n):
     
     for num in range(n):
-        print(1 + num)
-    for num in range(c):
-        print(1 + num)
+        (second_function(num))
 
-my_function(10,12)
+def second_function (f):
+    for num in range (f):
+        print("-", end="")
+    print()
+
+my_function(11)
