@@ -1,4 +1,6 @@
-def my_function ():
-    for num in range(10):
+def my_function (n):
+    
+    for num in range(n):
         print(1 + num)
-my_function()
+
+my_function(11)
